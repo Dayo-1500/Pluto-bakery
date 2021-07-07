@@ -73,12 +73,13 @@ include 'server_contactform.php';
                              {echo "*Message required";} ?> </span>
   <br>
   <br>
+      <a href="bread-shop-1.html">Test shop</a>
   <input style="border:0.3px solid #737373; width:6.5vw; margin-left:42%; box-shadow:none;" type="submit" name="submit" value="Send">
 
  </form> 
 </div>
     
-    <a href="bread-shop-1.html">Test shop</a>
+    
 </body>
 </html>
 
