@@ -120,22 +120,22 @@ include "server_payment.php";
 
 <picture class="iconbuy">
 
-<source srcset="images/naan-buy320px.png" media="(max-width:400px)">
+<source srcset="images/obinon-buy320px.png" media="(max-width:400px)">
 
-<source srcset="images/naan-buy480px.png" media="(max-width:720px)">
+<source srcset="images/obinon-buy480px.png" media="(max-width:720px)">
 
-<source srcset="images/naan-buy760px.png" media="(max-width:999px)">
+<source srcset="images/obinon-buy760px.png" media="(max-width:999px)">
 
-<source srcset="images/naan-buy760px.png" media="(max-width:1299px)">
+<source srcset="images/obinon-buy760px.png" media="(max-width:1299px)">
 
-<source srcset="images/naan-buy1366px.png" media="(min-width:1366px)">
+<source srcset="images/obinon-buy1366px.png" media="(min-width:1366px)">
 
-<img src="images/naan-buy760px.png" title="Naan" alt="Naan">
+<img src="images/obinon-buy760px.png" title="Obi non" alt="Obi non">
 
 </picture>
 
 
-<!--Naan-->
+<!--Obi non-->
 
 
 <br>
@@ -143,7 +143,7 @@ include "server_payment.php";
 <br>
 <br>
 
-<h5 class="smallsize" style="text-align:center;"> Naan</h5>
+<h5 class="smallsize" style="text-align:center;"> Obi non</h5>
 
 <div class="effects buybread">
 
@@ -171,7 +171,7 @@ Thanks a lot for your patronage.
 
 
 
-<form action="buybread - naan.php" method="post" class="buybread" oninput="price.value = b.value * c.value">
+<form action="buybread - obi-non.php" method="post" class="buybread" oninput="price.value = b.value * c.value">
     
 
 
@@ -190,8 +190,8 @@ Thanks a lot for your patronage.
 
 
 
-<input type="hidden" id="c" value=60> 
-<input type="hidden" name="bread_type" value="Naan">
+<input type="hidden" id="c" value=50> 
+<input type="hidden" name="bread_type" value="Obi non">
 
 
 
