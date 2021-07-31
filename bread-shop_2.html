@@ -1,100 +1,348 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
+
+ <head>
+
 <title>Bread Shop</title>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <meta name="keywords" content="'pluto bakery', 'bakery', 'buy bread', 'bread', 'bread shop'">
-<link rel="stylesheet" href="plutobakery.css">
+
+<link rel="stylesheet" type="text/css" href="plutobakery.css">
+
+<link rel="stylesheet" type="text/css" media="(max-width:1299px)" href="plutobakery1024px.css">
+
+<link rel="stylesheet" type="text/css" media="(max-width:999px)" href="plutobakery760px.css">
+
+<link rel="stylesheet" type="text/css" media="(max-width:600px)" href="plutobakery218px.css">	
+
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
 
+
+
+
 <!-- Design the bread shop page -->
-<header> 
-  <h1> Bread Shop </h1>
-  <br>
-  <p style="font-family:'dancing script', cursive; font-size:1.8rem; letter-spacing:3px; text-align:center;">Select from a mouth-watering array of bread. 
-          It's time to add a special touch to your events! </p>  
+
+<header class="head"> 
+  
+<h1> Bread Shop </h1>
+  
+<p style="font-family:'dancing script', cursive; font-size:1.2em; letter-spacing:0.25rem; text-align:center; word-wrap:break-word;">Select from a mouth-watering array of bread.
+ 
+It's time to add a special touch to your events! </p>  
+
 </header>
 
-<!--Brioche-->
-<div class="k" style="float:left; margin:2vw 6vw 4vw 4vw;"> 
-<p class="price">Brioche</p>
-<div class="brioche" title="Brioche" style="background-image:url('css_sprites.png'); width:388px; height:161px;"> </div>
-<p class="price"> Price: &#x20A6 350</p>
-<p class="description">Brioche is an amazing French bread made with lots of eggs, milk and butter that endows it with a rich flavour; quite appealing.</p>
-<a class="m" href="https://plutobakery.000webhostapp.com/registration/buybread%20-%20brioche.php">Let's see </a>
+<br><br><br>
+<!--English muffins-->
+
+<div class="k shop-aa">  
+
+<p class="price"> English muffins</p>
+
+
+<div> 
+<picture style="max-width:100%;">
+
+<source srcset="images/Englishmuffins-frontend480px.png" media="(max-width:400px)">
+
+<source srcset="images/Englishmuffins-frontend480px.png" media="(max-width:720px)">
+
+<source srcset="images/Englishmuffins-frontend760px.png" media="(max-width:999px)">
+
+<source srcset="images/Englishmuffins-frontend1024px.png" media="(max-width:1299px)">
+
+<source srcset="images/Englishmuffins-frontend1366px.png" media="(min-width:1300px)">
+
+
+
+<img src="images/Englishmuffins-frontend760px.png" title="English muffins" alt="English muffins">
+
+</picture>
+
 </div>
 
-<!--Naan-->
-<div class="k" style="float:right; margin:2vw 4vw 6vw 4vw;"> 
-<p class="price"> Naan</p>
-<div class="naan" title="Naan" style="background-image:url('css_sprites.png'); width:400px; height:147px;"> </div>
-<p class="price"> Price: &#x20A6 350/ 6pieces</p>
+
+
+<p class="price"> Price: &#x20A6; 300/ 6pieces</p>
+
+<p class="description">A light-weight bread, ideal for breakfast or snack. 
+It's easy to carry around, satisfying and delicious too.</p>
+
+<br><br>
+<a class="m mm" href="buybread - englishmuffins.php">Let's see </a>
+
+
+</div>
+
+
+
+
+
+<!--Bagels-->
+
+<div class="k shop-bb"> 
+
+<p class="price"> Bagels</p>
+
+
+<div>
+
+<picture style="max-width:100%;">
+<source srcset="images/bagels-frontend480px.png" media="(max-width:400px)">
+
+<source srcset="images/bagels-frontend480px.png" media="(max-width:720px)">
+
+<source srcset="images/bagels-frontend760px.png" media="(max-width:999px)">
+
+<source srcset="images/bagels-frontend1024px.png" media="(max-width:1299px)">
+
+<source srcset="images/bagels-frontend1366px.png" media="(min-width:1300px)">
+<img src="images/bagels-frontend760px.png" title="Bagels" alt="Bagels">
+
+</picture>
+
+</div>
+
+
+
+<p class="price"> Price: &#x20A6; 300/ 6pieces</p>
+
 <br>
-<p class="description">A traditional Asian bread made with yoghurt, eggs and flour. It is soft, chewy and delicious.</p>
-<a class="m" href="https://plutobakery.000webhostapp.com/registration/buybread%20-%20naan.php">Let's see </a>
+
+<p class="description" style="line-height:2;">A very handy snack whenever you are on the road. It tastes nice, you'll enjoy it.</p>
+
+<br><br>
+<div class="resize2"> </div>
+<a class="m mm" href="buybread - bagels.php">Let's see </a>
+
 </div>
 
-<div class="k" style="height:0.5vw; border:none; margin:0vw auto; box-shadow:none;"> </div>
 
-<!--Zopf-->
-<div class="k" style="float:left; margin:2vw 6vw 4vw 4vw;"> 
-<p class="price"> Zopf</p>
-<div class="zopf" title="zopf" style="background-image:url('css_sprites.png'); width:403px; height:125px;"> </div>
-<p class="price"> Price: &#x20A6 400</p>
-<p class="description">Originally from Switzerland, it is full of milk and butter giving it a lasting taste. Zopf will soon become one of your regulars.</p>
-<a class="m" href="https://plutobakery.000webhostapp.com/registration/buybread%20-%20zopf.php">Let's see </a>
+
+
+<div class="buffer k2" style="box-shadow:none; border:0px;"> </div>
+
+
+
+<!--Vanoka-->
+
+<div class="k shop-aa"> 
+
+<p class="price"> Vanoka</p>
+
+
+<div>
+
+<picture style="max-width:100%;">
+
+
+<source srcset="images/vanocka-frontend480px.png" media="(max-width:400px)">
+
+<source srcset="images/vanocka-frontend480px.png" media="(max-width:720px)">
+
+<source srcset="images/vanocka-frontend760px.png" media="(max-width:999px)">
+
+<source srcset="images/vanocka-frontend1024px.png" media="(max-width:1299px)">
+
+<source srcset="images/vanocka-frontend1366px.png" media="(min-width:1300px)">
+
+<img src="images/vanocka-frontend760px.png" title="Vanocka" alt="Vanocka">
+
+</picture>
+
 </div>
 
-<!--Rye bread-->
-<div class="k" style="float:right; margin:2vw 4vw 6vw 4vw;"> 
-<p class="price">Rye bread </p>
-<div class="rye" title="Rye bread" style="background-image:url('css_sprites.png'); width:400px; height:126px;"> </div>
-<p class="price"> Price: &#x20A6 350</p>
-<p class="description">It consist of rye and wheat flour and is packed with micronutrients. Rye bread has a natural sweet flavour you won't forget easily.</p>
-<a class="m" href="https://plutobakery.000webhostapp.com/registration/buybread%20-%20rye.php">Let's see </a>
+
+
+<p class="price"> Price: &#x20A6; 400</p>
+
+<p class="description" style="line-height:1.8;">A delicacy reserved for parties in some parts of Europe, the bread is enriched with fruits. 
+<br>Each bite is so tasty, you won't stop till you finish the whole loaf.</p>
+
+<br><br>
+<a class="m mm" href="buybread - vanoka.php">Let's see </a>
+
 </div>
 
-<div class="k" style="height:0.5vw; border:none; margin:0vw auto; box-shadow:none;"> </div>
 
-<!--Multigrain-->
-<div class="k" style="margin:2vw auto 4vw;">
-<p class="price"> Multigrain bread</p>
-<div class="multigrain" title="Multigrain bread" style="background-image:url('css_sprites.png'); width:403px; height:198px"> </div>
-<p class="price"> Price: &#x20A6 500</p>
-<p class="description"> It is made from a mixture of whole wheat and oats. It has a high fiber content and also contains nourishing nuts.</p>
-<a class="m" href="https://plutobakery.000webhostapp.com/registration/buybread%20-%20multigrain.php"> Let's see</a>
+
+
+<!--Matzo-->
+
+<div class="k shop-bb"> 
+
+<p class="price"> Matzo</p>
+
+
+
+<div>
+
+<picture style="max-width:100%;">
+<source srcset="images/matzoh-frontend480px.png" media="(max-width:400px)">
+
+<source srcset="images/matzoh-frontend480px.png" media="(max-width:720px)">
+
+<source srcset="images/matzoh-frontend760px.png" media="(max-width:999px)">
+
+<source srcset="images/matzoh-frontend1024px.png" media="(max-width:1299px)">
+
+<source srcset="images/matzoh-frontend1366px.png" media="(min-width:1300px)">
+<img src="images/matzoh-frontend760px.png" title="Matzoh" alt="Matzoh">
+
+</picture>
+
 </div>
 
-<div class="k" style="height:0.5vw; border:none; margin:0vw auto; box-shadow:none;"> </div>
 
-<a class="m mm" href="#"> End</a>
+
+<p class="price"> Price: &#x20A6; 350/ 12pieces</p>
+
+<p class="description">It is the traditional bread of the Jews and has been around for centuries.
+<br> It tastes like crackers and is ideal for religious events or snacking.</p>
+
+<br><br>
+
+<a class="m mm" href="buybread - matzo.php">Let's see </a>
+
+</div>
+
+
+<div class=" k2" style="box-shadow:none; border:0px;"> </div>
+
+
+
+<!--Obi non-->
+
+<div class="k shop-c"> 
+
+<p class="price"> Obi non</p>
+
+
+
+<div>
+
+<picture style="max-width:100%;">
+
+<source srcset="images/obinon-frontend480px.png" media="(max-width:400px)">
+
+<source srcset="images/obinon-frontend480px.png" media="(max-width:720px)">
+
+<source srcset="images/obinon-frontend760px.png" media="(max-width:999px)">
+
+<source srcset="images/obinon-frontend1024px.png" media="(max-width:1299px)">
+
+<source srcset="images/obinon-frontend1366px.png" media="(min-width:1300px)">
+<img src="images/obinon-frontend760px.png" title="Obi non" alt="Obi non">
+
+</picture>
+
+</div>
+
+
+<p class="price"> Price: &#x20A6; 300/ 6pieces</p>
+
+
+<p class="description"> Traditionally from Uzbekistan, you can dip it in mayonnaise or your favourite sauce. It is low-cost and fills your tummy fast.</p>
+
+<br><br>
+<a class="m mm" href="buybread - obi-non.php"> Let's see</a>
+
+</div>
+
+
+
+
+<br><br><br>
+
+
+
+
+<a class="m mm3" href="#" target="_self"> End</a>
+
+
+
+<br><br><br><br><br>
+
+
+
 
 
 
 <footer>
-<pre>
-Customer care: support@plutobakery.com
 
+<p>Customer care: support@plutobakery.space
+</p><br>
+
+
+<p>
 <u>Address</u>
-181 Flowering street
-Off Oyebo close
-Mokola
-Ibadan
-Oyo
-Nigeria
-Tel:+2348000007777
-</pre>
 
-<p style="text-align:center;">Created by Dayo Abdul &#169 2021 </p>
+<br>181 Flowering street
+
+<br>Off Oyebo close
+
+<br>Mokola
+
+<br>Ibadan
+
+<br>Oyo
+
+<br>Nigeria
+
+<br>Tel:+2348000007777
+</p>
+
+
+
+<p style="text-align:center;">Created by Dayo Abdul &#169; 2021 </p>
+
 </footer>
+
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
