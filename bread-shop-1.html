@@ -1,114 +1,350 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
 <title>Bread Shop</title>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <meta name="keywords" content="'pluto bakery', 'bakery', 'buy bread', 'bread', 'bread shop'">
-<link rel="stylesheet" href="plutobakery.css">
+
+<link rel="stylesheet" type="text/css" href="plutobakery.css">
+
+<link rel="stylesheet" type="text/css" media="(max-width:1299px)" href="plutobakery1024px.css">
+
+<link rel="stylesheet" type="text/css" media="(max-width:999px)" href="plutobakery760px.css">
+
+<link rel="stylesheet" type="text/css" media="(max-width:600px)" href="plutobakery218px.css">	
+
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
 
+
+
+
 <!-- Design the bread shop page -->
-<header> 
+
+<header class="head"> 
   
-      <h1> Bread Shop </h1>
-  <br>
-  <p style="font-family:'dancing script', cursive; font-size:1.8rem; letter-spacing:0.17rem; text-align:center; word-wrap:break-word; width:100%; height:auto;">Select from a mouth-watering array of bread. 
-          It's time to add a special touch to your events! </p> 
-         
+<h1> Bread Shop </h1>
+  
+<p style="font-family:'dancing script', cursive; font-size:1.2em; letter-spacing:0.25rem; text-align:center; word-wrap:break-word;">Select from a mouth-watering array of bread.
+ 
+It's time to add a special touch to your events! </p>  
+
 </header>
 
-<!--English muffins-->
-<div class="k" style="float:left; margin:2vw 6vw 4vw 4vw;"> 
-<p class="price"> English muffins</p>
+<br><br><br>
+<!--Brioche-->
 
-<div class="responsive1englishmuffins-frontend" style="background-image:url('responsiveSprites480px.png'); width:48.93%; height:4.08%;"></div>
+<div class="k shop-aa">  
+
+<p class="price"> Brioche</p>
+
+
+<div>
+<picture style="max-width:100%;">
+
+<source srcset="images/brioche-frontend480px.png" media="(max-width:400px)">
+
+<source srcset="images/brioche-frontend480px.png" media="(max-width:720px)">
+
+<source srcset="images/brioche-frontend760px.png" media="(max-width:999px)">
+
+<source srcset="images/brioche-frontend1024px.png" media="(max-width:1299px)">
+
+<source srcset="images/brioche-frontend1366px.png" media="(min-width:1300px)">
+
+
+
+<img src="images/brioche-frontend760px.png" title="Brioche" alt="Brioche">
+
+</picture>
+
+</div>
+
 
 
 <p class="price"> Price: &#x20A6; 300/ 6pieces</p>
-<p class="description">A light-weight bread, ideal for breakfast or snack. It's easy to carry around, satisfying and delicious too.</p>
-<a class="m" href="#buybread">Let's see </a>
+
+<p class="description">A light-weight bread, ideal for breakfast or snack. 
+It's easy to carry around, satisfying and delicious too.</p>
+
+<br><br>
+<div class="resize1"></div>
+<a class="m mm" href="buybread - brioche.php">Let's see </a>
+
+
 </div>
 
-<!--Bagels-->
-<div class="k" style="float:right; margin:2vw 4vw 6vw 4vw;"> 
-<p class="price"> Bagels</p>
-<div style="width:403px; height:141;">
-<i class="bagels" title="Bagels" alt="Bagels" style="background-image:url('css_sprites.png'); width:403px; height:141px;"> </i>
 
-<i class="1024px-bagels-frontend" title="Bagels" alt="Bagels" style="background-image:url('spritesheet -1024px'); width:254px; height:88px;"> </i>
 
-<i class="760px-bagels-frontend" title="Bagels" alt="Bagels" style="background-image:url('spritesheet-760px'); width:224px; height:78px;"> </i>
 
-<i class="480px-bagels-frontend" title="Bagels" alt="Bagels" style="background-image:url('spritesheet-480px'); width:142px; height:49px;"> </i>
 
-<i class="218px-bagels-frontend" title="Bagels" alt="Bagels" style="background-image:url('spritesheet-218px'); width:64px; height:22px;"> </i>
+<!--Naan-->
+
+<div class="k shop-bb"> 
+
+<p class="price"> Naan</p>
+
+
+<div>
+
+<picture style="max-width:100%;">
+<source srcset="images/naan-frontend480px.png" media="(max-width:400px)">
+
+<source srcset="images/naan-frontend480px.png" media="(max-width:720px)">
+
+<source srcset="images/naan-frontend760px.png" media="(max-width:999px)">
+
+<source srcset="images/naan-frontend1024px.png" media="(max-width:1299px)">
+
+<source srcset="images/naan-frontend1366px.png" media="(min-width:1300px)">
+<img src="images/naan-frontend760px.png" title="Naan" alt="Naan">
+
+</picture>
+
 </div>
+
+
 
 <p class="price"> Price: &#x20A6; 300/ 6pieces</p>
+
 <br>
+
 <p class="description" style="line-height:2; margin-bottom:3vw;">A very handy snack whenever you are on the road. It tastes nice, you'll enjoy it.</p>
-<a class="m" href="#buybread">Let's see </a>
+
+<br><br>
+<a class="m mm" href="buybread - naan.php">Let's see </a>
+
 </div>
 
 
-<!--Matzo-->
-<div class="k" style="float:left; margin:2vw 6vw 4vw 4vw;"> 
-<p class="price"> Matzo</p>
-<div class="matzo" title="Matzo" style="background-image:url('css_sprites.png'); width:390px; height:134px;"> </div>
-<p class="price"> Price: &#x20A6; 350/ 12pieces</p>
-<p class="description">It is the traditional bread of the Jews and has been around for centuries.<br> It tastes like crackers and is ideal for religious events or snacking.</p>
-<a class="m" href="#buybread">Let's see </a>
+
+
+<div class="buffer k2" style="box-shadow:none; border:0px;"> </div>
+
+
+
+<!--Zopf-->
+
+<div class="k shop-aa"> 
+
+<p class="price"> Zopf</p>
+
+
+
+<div>
+
+<picture style="max-width:100%;">
+
+
+<source srcset="images/zopf-frontend480px.png" media="(max-width:400px)">
+
+<source srcset="images/zopf-frontend480px.png" media="(max-width:720px)">
+
+<source srcset="images/zopf-frontend760px.png" media="(max-width:999px)">
+
+<source srcset="images/zopf-frontend1024px.png" media="(max-width:1299px)">
+
+<source srcset="images/zopf-frontend1366px.png" media="(min-width:1300px)">
+
+<img src="images/zopf-frontend760px.png" title="Zopf" alt="Zopf">
+
+</picture>
+
 </div>
 
-<!--Vanoka-->
-<div class="k" style="float:right; margin:2vw 4vw 6vw 4vw;"> 
-<p class="price"> Vanoka</p>
-<div class="vanoka" title="Vanoka" style="background-image:url('css_sprites.png'); width:400px; height:88px;"> </div>
+
+
 <p class="price"> Price: &#x20A6; 400</p>
-<p class="description" style="line-height:1.8;">A delicacy reserved for parties in some parts of Europe, the bread is enriched with fruits. <br>Each bite is so tasty, you won't stop till you finish the whole loaf.</p>
-<a class="m" href="#buybread">Let's see </a>
+
+<p class="description" style="line-height:1.8;">A delicacy reserved for parties in some parts of Europe, the bread is enriched with fruits. 
+<br>Each bite is so tasty, you won't stop till you finish the whole loaf.</p>
+
+<br><br>
+<a class="m mm" href="buybread - zopf.php">Let's see </a>
+
 </div>
 
 
-<!--Obi non-->
-<div class="k" style="margin:2vw auto 4vw;">
-<p class="price"> Obi non</p>
-<div class="obi-non" title="Obi non" style="background-image:url('css_sprites.png'); width:399px; height:337px"> </div>
+
+
+<!--Rye-->
+
+<div class="k shop-bb"> 
+
+<p class="price"> Rye</p>
+
+
+
+<div>
+
+<picture style="max-width:100%; ">
+<source srcset="images/rye-frontend480px.png" media="(max-width:400px)">
+
+<source srcset="images/rye-frontend480px.png" media="(max-width:720px)">
+
+<source srcset="images/rye-frontend760px.png" media="(max-width:999px)">
+
+<source srcset="images/rye-frontend1024px.png" media="(max-width:1299px)">
+
+<source srcset="images/rye-frontend1366px.png" media="(min-width:1300px)">
+<img src="images/rye-frontend760px.png" title="Rye bread" alt="Rye bread">
+
+</picture>
+
+</div>
+
+
+
+<p class="price"> Price: &#x20A6; 350/ 12pieces</p>
+
+<p class="description">It is the traditional bread of the Jews and has been around for centuries.
+<br> It tastes like crackers and is ideal for religious events or snacking.</p>
+
+<br><br>
+<div class="resize3"></div>
+<a  class="m mm" href="buybread - rye.php">Let's see </a>
+
+</div>
+
+
+<div class=" k2" style="box-shadow:none; border:0px;"> </div>
+
+
+
+
+<!--Multigrain bread-->
+
+<div class="k shop-c"> 
+
+<p class="price"> Multigrain bread</p>
+
+
+
+<div>
+
+<picture style="max-width:100%;">
+
+<source srcset="images/multigrain-frontend480px.png" media="(max-width:400px)">
+
+<source srcset="images/multigrain-frontend480px.png" media="(max-width:720px)">
+
+<source srcset="images/multigrain-frontend760px.png" media="(max-width:999px)">
+
+<source srcset="images/multigrain-frontend1024px.png" media="(max-width:1299px)">
+
+<source srcset="images/multigrain-frontend1366px.png" media="(min-width:1300px)">
+<img src="images/multigrain-frontend760px.png" title="Multigrain bread" alt="Multigrain">
+
+</picture>
+
+</div>
+
+
 <p class="price"> Price: &#x20A6; 300/ 6pieces</p>
+
+
 <p class="description"> Traditionally from Uzbekistan, you can dip it in mayonnaise or your favourite sauce. It is low-cost and fills your tummy fast.</p>
-<a class="m" href="#buybread"> Let's see</a>
+
+<br><br>
+<a class="m mm" href="buybread - multigrain.php"> Let's see</a>
+
 </div>
 
-<div class="k" style="height:1.5vw; border:none; margin:0vw auto; box-shadow:none;"> </div>
 
-<a class="m mm" href="bread-shop-page2.html" target="_blank"> Next Page</a>
+
+
+<br><br><br>
+
+
+
+
+<a class="m mm3" href="bread-shop_2.html" target="_blank"> Next Page</a>
+
+
+
+<br><br><br><br><br>
+
+
+
 
 
 
 <footer>
-<pre>
-Customer care: support@plutobakery.com
 
+<p>Customer care: support@plutobakery.space
+</p><br>
+
+
+<p>
 <u>Address</u>
-181 Flowering street
-Off Oyebo close
-Mokola
-Ibadan
-Oyo
-Nigeria
-Tel:+2348000007777
-</pre>
+
+<br>181 Flowering street
+
+<br>Off Oyebo close
+
+<br>Mokola
+
+<br>Ibadan
+
+<br>Oyo
+
+<br>Nigeria
+
+<br>Tel:+2348000007777
+</p>
+
+
 
 <p style="text-align:center;">Created by Dayo Abdul &#169; 2021 </p>
+
 </footer>
+
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
