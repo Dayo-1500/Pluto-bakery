@@ -29,7 +29,7 @@ if(!isset($_SESSION['email']))
 <br>
 <p style="text-align:center;"> <?php echo "Amount to pay is: &#x20A6;" .$_SESSION['price']; ?> </p>
 <div class="paymentsection">
-<iframe src="https://paystack.com/pay/k6y4qbm51x" name="payment-section" title="Payment" style="box-sizing:border-box;"></iframe>	
+<iframe src="https://paystack.com/pay/k6y4qbm51x" name="payment-section" title="Payment" style="box-sizing:border-box; height:100%; width:100%;"></iframe>	
 
 </div>
 
