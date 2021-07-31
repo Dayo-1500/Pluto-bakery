@@ -1,92 +1,265 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
 <title>Pluto Bakery</title>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <meta name="keywords" content="'pluto bakery', 'bakery', 'buy bread', 'bread', 'bread shop'">
-<link rel="stylesheet" href="plutobakery.css">
+
+<link rel="stylesheet" type="text/css" href="plutobakery.css">
+
+<link rel="stylesheet" type="text/css" media="(max-width:1299px)" href="plutobakery1024px.css">
+
+<link rel="stylesheet" type="text/css" media="(max-width:999px)" href="plutobakery760px.css">
+
+<link rel="stylesheet" type="text/css" media="(max-width:600px)" href="plutobakery218px.css">	
+
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<style>
+#menulist {display:none;}
+#menulist:target {display:block;}
+li.menubox {
+  display:block; float:none;
+  text-align:center;
+  padding-top:1.2em; 
+}
+ 
+li.menubox:nth-child(even) {background-color:#b3b332;}
+
+li.menubox:nth-child(odd) {background-color:#8b8b27;}
+
+a.menubox {width:100%; border-right:none; float:none;}
+
+li a.menubox { border-right:none;}
+
+ul.menubox {border:none; background-color:white; width:100%;}
+
+div.menubox {width:65%; float:right; margin-bottom:1em;}
+</style>
 </head>
+
 <body>
 
 
-<!-- Design the bread shop page -->
-<div class="homepage"> 
-<div class="wuto-plutobakery_icon" style="background-image:url('spritesheet-wuto.png'); width:185px; height:273px; float:right; margin:none;"></div>
-  <h1 style="padding-top:5rem; text-shadow: 6px 5px 18px 5px #9f9f2d; font-size: 6rem;"> Wito Bakery </h1>
+
+
+
+<!-- Design the home page -->
+
+<header class="homepage"> 
+  
+<picture class="icon">
+
+<source srcset="images/plutobakery_icon320px.png" media="(max-width:400px)">
+
+<source srcset="images/plutobakery_icon480px.png" media="(max-width:720px)">
+
+<source srcset="images/plutobakery_icon760px.png" media="(max-width:999px)">
+
+<source srcset="images/plutobakery_icon1024px.png" media="(max-width:1299px)">
+
+<source srcset="images/plutobakery_icon1366px.png" media="(min-width:1366px)">
+
+<img src="images/plutobakery_icon760px.png" title="Plutobakery" alt="Plutobakery">
+
+</picture>
+
+
+<h1 class="beauty"> Pluto Bakery </h1>
+</header>
+
+
+<nav>
+<ul>
+
+<li class="largescreen"><a class="largescreen" href="#"> Home</a></li>
+
+<li class="largescreen"><a class="largescreen" href="bread-shop_1.html" target="_self"> Bread Shop</a></li>
+
+<li class="largescreen"><a class="largescreen" href="contact_form.php" target="_blank"> Contact us</a></li>
+
+<li class="largescreen"><a class="largescreen" href="profile_page.php" target="_blank">My Profile</a></li>
+
+<li class="largescreen"><a class="largescreen" href="log-out.php" target="_blank"> Log out</a></li>
+
+<a class="smallscreen" href="#menulist"><i class="material-icons">menu</i></a>
+
+</ul>
+
+</nav>
+
+
+
+<div id="menulist" class="menubox">
+<a style="float:left; margin-right:3.5em; font-size:1em;" href="2index.html" target="_self"> <i class="material-icons">cancel_presentation</i></a>
+<ul class="menubox">
+<li class="menubox"><a class="menubox" href="#"> Home</a></li>
+<li class="menubox"><a class="menubox" href="bread-shop_1.html" target="_self"> Bread Shop</a></li>
+<li class="menubox"><a class="menubox" href="contact_form.php" target="_blank"> Contact us</a></li>
+
+<li class="menubox"><a class="menubox" href="profile_page.php" target="_blank">My Profile</a></li>
+
+<li class="menubox"><a class="menubox" href="log-out.php" target="_blank"> Log out</a></li>
+
+
+</ul>
+
 </div>
 
 
-<navbar> 	
-<ul class="y">
-<li class="y"><a href="#"> Home</a></li>
-<li class="y"><a href="bread shop-page1.html" target="_self"> Bread Shop</a></li>
-<li class="y"><a href="Login.html" target="_blank">Login</a></li>
-<li class="y"><a href="Register.html" target="_blank">Register</a></li>
-<li class="y"><a href="contact.html" target="_blank"> Contact us</a></li>
-<li class="y"><a href="profile.php" target="_blank">My Profile</a></li>
-<li class="y"><a href="logout.php" target="_blank"> Log out</a></li>
-</ul>
-</navbar>
 
 <aside>
-<div class="home"> Wito bakery delivers bread to my office every week.<br> - Mrs Adefiyi</div><br>
-<div class="home2"> Their bread is soft and delicious, I'm addicted.<br> - Mr Charles</div><br>
-<div class="home3"> Superb service.<br> - Miss Tolulope Odedipe</div><br>
-<div class="home4"> Two years ago, a friend refered me to Wito bakery and I haven't been dissapointed ever since.<br> - Abdulahhi Musa</div><br>
-<div class="home5"> I like their kind of bread.<br> - Onyeka</div><br>
+<div class="home"> Pluto bakery delivers bread to my office every week.<br> - Mrs Adefiyi</div>
+<br>
 
-<div style="margin-top:50%; font-family:'helvetica', serif; line-height:1rem;">
-<h3 style="letter-spacing:3px; text-align:center;"> <u>Announcements</u></h3>
-<p style="letter-spacing:3px; text-align:center;">2021</p>
-<ul style="list-style-type:disc; font-size:13px;">
-<li> June 10 <br> We apologise that we won't be able to make any deliveries on June 12 due to logistics.</li><br><br>
-<li> June 20 <br> Ileya promo is out! <br> Buy a dozen loafs of bread and get two free loafs &#128515; &#128522</li><br><br>
-<li> June 23 <br> Starting August, we will be adding Injera bread to our list of brands &#128523; &#128523;</li><br><br>
+<div class="home2"> Their bread is soft and delicious, I'm addicted.<br> - Mr Charles</div>
+<br>
+
+<div class="home3"> Superb service.<br> - Miss Tolulope Odedipe</div>
+<br>
+
+<div class="home4"> Two years ago, a friend refered me to Pluto bakery and I haven't been dissapointed ever since.<br> - Abdulahhi Musa</div>
+<br>
+
+<div class="home5"> I like their kind of bread.<br> - Onyeka</div>
+<br>
+
+
+<div style="margin-top:32%; font-family:'helvetica', serif; line-height:1rem;">
+
+
+<h3 class="show" style="letter-spacing:3px; text-align:center;"> <u>Announcements</u></h3>
+
+<p class="show" style="letter-spacing:3px; text-align:center;">2021</p>
+
+
+<ul style="list-style-type:square; font-size:0.8125rem;">
+
+<br>
+<li class="show"> June 10 <br> We apologise, we won't be able to make any deliveries on June 12 due to logistics.</li>
+<br><br><br><br>
+<li class="show"> June 20 <br> Ileya promo is out! <br> Buy a dozen loafs of bread and get two free loafs &#128515; &#128522;</li>
+<br><br><br><br>
+<li class="show"> June 23 <br> Starting August, we will be adding Injera bread to our list of brands &#128523; &#128523;</li>
 </ul>
+
 </div>
+
 </aside>
 
 
 
-<section>
-<div style="background-image:url('spritesheet-wuto.png'); width:800px; height:533px; margin: 5% auto;"> </div>
 
-<article class="description" style="border:none; padding:2% 8%; line-height:2.02rem; letter-spacing:2px; font-size:17px; font-family:Verdana, sans-serif;"> <span style="color:#f9c11a; font-size:23px;"> We bake tasty bread, </span> it's an art we've come to master. 
-Our aim is to present a wide variety of "exotic" bread, and watching customers enjoy these delicacies is a joy. <br><br> 
-After going far and wide to learn how bread is made at different parts of the world, we have become skilled at baking foreign bread - and providing home deliveries. <br>
+
+
+<section>
+
+<div class="frontpic">
+
+<picture style="max-width:100%;">
+
+<source srcset="images/plutobakery480px.png" media="(max-width:400px)">
+
+<source srcset="images/plutobakery480px.png" media="(max-width:720px)">
+
+<source srcset="images/plutobakery760px.png" media="(max-width:999px)">
+
+<source srcset="images/plutobakery1024px.png" media="(max-width:1299px)">
+
+<source srcset="images/plutobakery1366px.png" media="(min-width:1366px)">
+
+<img src="images/plutobakery760px.png" title="Plutobakery" alt="Plutobakery">
+
+</picture>
+
+</div>
+
+
+
+
+<article> 
+<span class="effizy"> We bake tasty bread, </span> it's an art we've come to master. 
+
+Our aim is to present a wide variety of "exotic" bread, and watching customers enjoy these delicacies is a joy. 
+<br><br> 
+
+After going far and wide to learn how bread is made at different parts of the world, 
+we have become skilled at baking foreign bread - and providing home deliveries. 
+<br>
 Yep, our customers eat foreign bread without having to leave home.
+
 <br><br>
-There are different brands of delicious bread to choose from. For those with a sweet tooth, who prefer sweetened bread or others who would rather eat the low-sugar brand or anything inbetween; we have brands to meet every need.
+There are different brands of delicious bread to choose from. 
+For those with a sweet tooth, who prefer sweetened bread or others who would rather eat the low-sugar brand or anything inbetween; 
+we have brands to meet every need.
 <br><br>
-Our customers have remained loyal to us through the years because we don't let them down. They rely on us to deliver on time and in good quality. <br>
-We sell at our bread shop and can also deliver to your home or work place if you'd like.<br> So head over to our shop to buy now.</article>
+Our customers have remained loyal to us through the years because we don't let them down. 
+They rely on us to deliver on time and in good quality. <br>
+We sell at our bread shop and can also deliver to your home or work place if you'd like.
+<br> So head over to our shop to buy now.
+</article>
 
 </section>
 
 
+<br><br>
 
-<a class="m mm2" href="bread-shop_1.html" target="_blank"> Bread Shop</a>
+<div>
+   
+ <a class="m mm2" href="bread-shop_1.html" target="_blank">Bread Shop</a>
+    
+
+</div>
+
+
+
+
+
+
+
 
 <footer>
-<pre>
-Customer care: support@witobakery.com
 
+<p>Customer care: support@plutobakery.space
+
+</p><br>
+
+
+<p>
 <u>Address</u>
-181 Flowering street
-Off Oyebo close
-Mokola
-Ibadan
-Oyo
-Nigeria
-Tel:+2348000007777
-</pre>
 
-<p style="text-align:center;">Created by Dayo Abdul &#169 2021 </p>
+<br>181 Flowering street
+
+<br>Off Oyebo close
+
+<br>Mokola
+
+<br>Ibadan
+
+<br>Oyo
+
+<br>Nigeria
+
+<br>Tel:+2348000007777
+</p>
+
+
+
+<p style="text-align:center;">Created by Dayo Abdul &#169; 2021 </p>
+
 </footer>
+
 </body>
+
 </html>
 
 
