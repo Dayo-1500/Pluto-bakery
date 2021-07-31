@@ -8,12 +8,17 @@ if(!isset($_SESSION['email']))
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Payment</title>
+<title>Pluto Bakery</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="'pluto bakery', 'bakery', 'buy bread', 'bread', 'bread shop'">
-<link rel="stylesheet" href="plutobakery.css">
+<link rel="stylesheet" type="text/css" href="plutobakery.css">
+<link rel="stylesheet" type="text/css" media="(max-width:1024px)" href="plutobakery1024px.css">
+<link rel="stylesheet" type="text/css" media="(max-width:768px)" href="plutobakery760px.css">
+<link rel="stylesheet" type="text/css" media="(max-width:218px)" href="plutobakery760px.css">	
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -23,26 +28,49 @@ if(!isset($_SESSION['email']))
 
 <br>
 <p style="text-align:center;"> <?php echo "Amount to pay is: &#x20A6;" .$_SESSION['price']; ?> </p>
-<div style="width:80vw; height:75vh; margin-left:4% auto;">
-<iframe src="https://qa.interswitchng.com/paymentgateway/link/pay/bakery" name="payment-section" title="Payment" style="margin:1% 10%; box-sizing:content-box; height:100%; width:100%;"></iframe>	
+<div class="paymentsection">
+<iframe src="https://paystack.com/pay/k6y4qbm51x" name="payment-section" title="Payment" style="box-sizing:border-box;"></iframe>	
 
 </div>
 
 
-<footer>
-<pre>
-Customer care: support@plutobakery.com
 
+
+<footer>
+
+<p>Customer care: support@plutobakery.space
+
+</p><br>
+
+
+<p>
 <u>Address</u>
-181 Flowering street
-Off Oyebo close
-Mokola
-Ibadan
-Oyo
-Nigeria
-Tel:+2348000007777
-</pre>
+
+<br>181 Flowering street
+
+<br>Off Oyebo close
+
+<br>Mokola
+
+<br>Ibadan
+
+<br>Oyo
+
+<br>Nigeria
+
+<br>Tel:+2348000007777
+</p>
+
+
+
 <p style="text-align:center;">Created by Dayo Abdul &#169; 2021 </p>
+
 </footer>
+
 </body>
+
 </html>
+
+
+
+
