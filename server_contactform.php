@@ -17,7 +17,7 @@
 
 
 //connect to database
-$conn = new mysqli('localhost', 'id17048003_gahs', 'Temitope.1900', 'id17048003_customer');
+$conn = mysqli_connect('****', '*****', '*****', '*****');
 
 //check connection
 if ($conn->connect_error) 
